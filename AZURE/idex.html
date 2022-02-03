@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>OGUNSINA OLUWATOYOSI 17CJ022526 DATA VISUALIZATION ASSIGNMENT</title>
+
+    <link rel="stylesheet" type="text/css" href= "{{ url_for('static', filename='css/main.css') }}">
+
+  </head>
+  <body>
+      <h1 align="center">Total population served by municipal waste collection</h1>
+
+    <div class="cell">
+        <p class="main-text">
+           This Bar chart below shows Total population served by municipal waste collection(%)
+        </p>
+<br/><br/>
+        <img src='{{ url_for('static', filename='images/m1.png') }}' width="70%">
+
+
+
+
+      </div>
+
+
+      <div  class="cell">
+        <p class="main-text">
+            The pie charts show below the Total population served by municipal waste collection(%)(as indicated by the legend),
+            for the observation values in the pie chart above the first plot being the Standard deviation, Interquartile range, African average = 55
+        </p>
+<br/><br/>
+      <img src='{{ url_for('static', filename='images/m2.png') }}' width="80%">
+ <br/><br/> 
+      <img src='{{ url_for('static', filename='images/m3.png') }}' width="80%">
+
+      </div>
+      
+
+  </body>
+</html>
